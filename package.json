@@ -9,16 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.485.0",
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-owl-carousel": "^2.3.3",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/isotope-layout": "^3.0.14",
+    "@types/jquery": "^3.5.32",
     "@types/node": "^20",
+    "@types/owl.carousel": "^2.3.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

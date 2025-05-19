@@ -1,0 +1,32 @@
+.contact-form {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.contact-form form{
+    position: relative;
+    display: block;
+}
+.contact-form form .input-box{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.contact-form form .input-box .icon{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    z-index: 10;
+}
+
+.form-section{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f2ef;
+}
+
+.form-section .sec-title{
+    padding-bottom: 35px;
+}

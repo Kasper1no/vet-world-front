@@ -1,0 +1,122 @@
+.service-style1-area{
+    position: relative;
+    display: block;
+    background: #f4f2ef;
+    padding: 120px 0 90px;
+}
+
+.service-style1-area.service-page {
+    background: transparent;
+    padding: 0px 0 90px;
+    margin-top: -89px;
+    z-index: 10;
+}
+
+
+.service-style1-area .shape1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service-style1-area .shape2{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    -webkit-animation: service_hexagon_2 15s infinite linear;
+    -moz-animation: service_hexagon_2 15s infinite linear;
+    -o-animation: service_hexagon_2 15s infinite linear;
+    animation: service_hexagon_2 15s infinite linear;
+}
+
+.single-service-style1{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+.single-service-style1 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.single-service-style1 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-service-style1 .img-holder img{
+    width: 100%;
+    transform: scale(1.01);
+    transition: all 700ms ease;
+    object-fit: cover;
+    height: 250px;
+}
+.single-service-style1:hover .img-holder img{
+    transform: scale(1.2);    
+}
+.single-service-style1 .img-holder::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.single-service-style1:hover .img-holder::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+.single-service-style1 .text-holder{
+    position: relative;
+    display: block;
+    padding: 24px 30px 26px;
+    padding-right: 20px;
+    border-top: none;
+    -webkit-box-shadow: 0px 4px 11px 2px rgba(0,0,0,0.04); 
+    box-shadow: 0px 4px 11px 2px rgba(0,0,0,0.04);
+}
+.single-service-style1 .text-holder h3{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.single-service-style1 .text-holder h3 a{
+    color: #393d72;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style1 .text-holder p{
+    color: #393d72;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;   
+}
+.single-service-style1 .text-holder .button{
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+.single-service-style1 .text-holder .button a{
+    color: #c9cbe5;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}

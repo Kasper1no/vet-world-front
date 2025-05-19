@@ -1,0 +1,178 @@
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #43c3ea;
+    outline: none;
+}
+
+#contact-form input[type="text"].error{
+    border-color: red;    
+}
+#contact-form input[type="email"].error{
+  border-color: red;    
+}
+#contact-form input[type="datetime-local"].error{
+    border-color: red;    
+}
+#contact-form textarea.error{
+  border-color: red;    
+}
+
+.contact-form-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 170px 0 120px;
+    z-index: 1;
+}
+.contact-form-style1-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    z-index: -1;
+}
+
+.contact-form {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.contact-form form{
+    position: relative;
+    display: block;
+}
+.contact-form form .input-box{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.contact-form form .input-box .icon{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    z-index: 10;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form input[type="datetime-local"],
+.contact-form form input[type="password"],
+.contact-form form textarea{
+    position: relative;
+    display: block;   
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 60px;
+    color: #393d73;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    transition: all 100ms ease;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-form form textarea {
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 100px;
+    max-height: 300px;
+}
+.contact-form form input[type="text"]:focus{
+    color: #222222;
+    border-color: #101f42; 
+}
+.contact-form form input[type="email"]:focus{
+    color: #222222;
+    border-color: #101f42;
+}
+.contact-form form input[type="datetime-local"]:focus{
+    color: #222222;
+    border-color: #101f42;
+}
+.contact-form form input[type="password"]:focus{
+    color: #222222;
+    border-color: #101f42;
+}
+.contact-form form textarea:focus{
+    color: #222222;
+    border-color: #101f42;
+}
+
+.contact-form form input[type="text"]::-webkit-input-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="text"]:-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="text"]::-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="text"]:-ms-input-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="email"]::-webkit-input-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="email"]:-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="email"]::-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="datetime-local"]::-webkit-input-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="datetime-local"]:-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="datetime-local"]::-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form input[type="datetime-local"]:-ms-input-placeholder {
+    color: #393d73;
+}
+.contact-form form textarea::-webkit-input-placeholder {
+    color: #393d73;
+}
+.contact-form form textarea:-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form textarea::-moz-placeholder {
+    color: #393d73;
+}
+.contact-form form textarea:-ms-input-placeholder {
+    color: #393d73;
+}
+
+
+.contact-form form .button-box {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+.contact-form form .button-box button{
+    line-height: 60px;
+}
+.contact-form form .button-box button i {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 60px;
+    padding-right: 10px;
+}

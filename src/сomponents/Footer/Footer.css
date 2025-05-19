@@ -1,0 +1,216 @@
+.footer-style2-area{
+    position: relative;
+    display: block;
+    background: #22254a;
+}
+.footer-top-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 0 40px;
+    border-bottom: 2px solid #353862;
+}
+.footer-top-content .footer-logo{
+    margin: 0;
+}
+
+.footer-style2 {
+    position: relative;
+    display: block;
+    padding: 74px 0px 75px;
+}
+.single-footer-widget .title{
+    position: relative;
+    display: block;
+    padding-bottom: 30px;
+}
+.single-footer-widget .title h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.single-footer-widget .title h3 span{
+    position: relative;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+}
+.single-footer-widget.pdleft30{
+    padding-left: 30px;
+}
+.single-footer-widget.pdleft50{
+    padding-left: 50px;
+}
+.single-footer-widget .widget-link1{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .widget-link1 li {
+    list-style: none;
+    margin: 0px 0px 20px;
+}
+.single-footer-widget .widget-link1 li:last-child{
+    margin: 0;
+}
+.single-footer-widget .widget-link1 li a{
+    color: #a5a7c2;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-footer-widget .widget-link1 li a:hover{
+    color: #ffffff;
+}
+
+.single-footer-widget .widget-link2{
+    position: relative;
+}
+.single-footer-widget .widget-link2 li{
+    list-style: none;
+     margin: 0px 0px 20px;
+}
+.single-footer-widget .widget-link2 li:last-child{
+    margin: 0;
+}
+.single-footer-widget .widget-link2 li a{
+    color: #a5a7c2;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-footer-widget .widget-link2 li a:hover{
+    color: #ffffff;    
+}
+
+.widget-company-info{
+    position: relative;
+    display: block;
+}
+.widget-company-info p {
+    color: #bdbfd8;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0px;
+}
+.widget-company-info .readmore{
+    position: relative;
+    display: block;
+    padding-top: 21px;
+}
+.widget-company-info .readmore a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-bottom-style2 {
+    position: relative;
+    display: block;
+    background: #171a39;
+    padding: 25px 0;
+}
+.footer-bottom-style2 .outer-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.footer-menu-style2{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.footer-menu-style2 ul{
+    overflow: hidden;    
+}
+.footer-menu-style2 ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    margin-right: 50px;
+}
+.footer-menu-style2 ul li:last-child{
+    margin-right: 0;
+}
+.footer-menu-style2 ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+footer {
+    position: relative;
+    display: block;
+    padding: 0 0px 110px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-logo .logo{
+    position: relative;
+}
+.footer-logo .logo a{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f6f7fd;
+}
+.footer-logo .logo a img{
+    width: 60px;
+}
+
+.footer-social-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-info a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background: #3b5999;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 28px;
+}
+.footer-social-info a.fb-clr{
+    background: #3b5999;
+}
+.footer-social-info a.tw-clr{
+    background: #55acee;
+}
+.footer-social-info a.you-clr{
+    background: #cd201f;
+}
+.footer-social-info a.sk-clr{
+    background: #00aff0;
+}
+.footer-social-info a+a{
+    margin-left: 10px;
+}

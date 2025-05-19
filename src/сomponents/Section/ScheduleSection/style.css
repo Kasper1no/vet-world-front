@@ -1,0 +1,88 @@
+.features-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+}
+
+.working-hours-box{
+    position: relative;
+    display: block;
+    padding: 40px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.working-hours-box .inner-content{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 44px 50px 41px;
+}
+.working-hours-box .title{
+    position: relative;
+    display: block;
+    padding-bottom: 25px;
+}
+.working-hours-box .title h3{
+    color: #393d72;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0 0 6px;
+}
+.working-hours-box .title h3 span {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.working-hours-box .title p{
+    margin: 0;
+}
+.working-hours-box ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.working-hours-box ul li{
+    position: relative;
+    display: block;
+    line-height: 30px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+.working-hours-box ul li:before{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px dashed #e6e7f2;
+    content: "";
+}
+.working-hours-box ul li:last-child{
+    margin-bottom: 0;
+}
+.working-hours-box ul li .left{
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+    padding-right: 40px;
+    color: #393d72;
+    font-size: 16px;
+    font-weight: 700;
+}
+.working-hours-box ul li .right{
+    position: relative;
+    display: inline-block;
+    float: right;
+    background: #ffffff;
+    color: #ff4880;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 600; 
+    font-family: 'Open Sans', sans-serif;
+}

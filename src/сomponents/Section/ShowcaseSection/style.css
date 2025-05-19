@@ -1,0 +1,30 @@
+.showcase-area{
+    position: relative;
+    display: block;
+    background: #f4f2ef;
+    padding: 120px 0 90px;
+}
+.single-showcase-box{
+    position: relative;
+    display: block;
+}
+.single-showcase-box .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.single-showcase-box .img-holder img{
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform .4s ease;
+    transition: -webkit-transform .4s ease;
+    transition: transform .4s ease;
+    transition: transform .4s ease, -webkit-transform .4s ease; 
+}
+.single-showcase-box:hover .img-holder img{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);    
+}

@@ -1,0 +1,36 @@
+.service-style1-area{
+    position: relative;
+    display: block;
+    background: #f4f2ef;
+    padding: 150px 0 90px;
+}
+
+.service-style1-area .shape1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service-style1-area .shape2{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+.profile-card{
+    min-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+}
+
+.btm-btns , .btm-btns a{
+    color: #6377ee;
+}

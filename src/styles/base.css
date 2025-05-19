@@ -1,0 +1,206 @@
+
+/*==============================================
+   Base Css
+===============================================*/
+*{
+	margin:0px;
+	padding:0px;
+	border: none;
+	outline: none;
+	font-size: 100%;
+}
+html,
+body { 
+    height: 100%;
+}
+body {
+    color: #393d72;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+button:focus{
+    outline: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #393d72;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h3 {
+    font-size: 18px; 
+    line-height: 30px;
+    font-weight: 700;
+}
+h4 {
+
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.fix{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+i {
+	font-style: normal;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol,
+li{
+    margin: 0;
+    padding: 0;    
+}
+.clr1{
+    color: #f36727;
+}
+.bgclr1{
+    background: #f36727;    
+}
+
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+.btn-one {
+    position: relative;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; 
+    font-family: 'Poppins', sans-serif;
+}
+.btn-one:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 10px;
+    transform: scaleY(0.0) rotateX(0deg);
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;    
+}
+.btn-one:hover:after{
+    transform: scaleY(1.0) rotateX(0deg);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.btn-one .txt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.btn-one:hover,
+.btn-one:focus{
+    color: #393d72;
+}
+.btn-one.style2{
+    color: #ffffff;
+}
+.btn-one.style2:hover:after{
+    transform: scaleY(1.0) rotateX(0deg);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;      
+}
+.btn-one.style2:hover,
+.btn-one.style2:focus{
+    color: #393d72;
+}
+
+
+
+
+
+
+
+.sec-title {
+    position: relative;
+    display: block;
+    padding-bottom: 68px;
+}
+.sec-title .icon{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.sec-title h2{
+    color: #393d72;
+    font-size: 60px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 11px 0 0;
+}
+.sec-title h5{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.sec-title h5 span{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+}

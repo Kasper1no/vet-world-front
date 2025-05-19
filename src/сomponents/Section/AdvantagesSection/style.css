@@ -1,0 +1,183 @@
+.features-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+}
+
+.working-hours-box{
+    height: 100%;
+    width: fit-content;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.working-hours-box .inner-content{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 44px 50px 41px;
+}
+.working-hours-box .title{
+    position: relative;
+    display: block;
+    padding-bottom: 25px;
+}
+.working-hours-box .title h3{
+    color: #393d72;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0 0 6px;
+}
+.working-hours-box .title h3 span {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.working-hours-box .title p{
+    margin: 0;
+}
+.working-hours-box ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.working-hours-box ul li{
+    position: relative;
+    display: block;
+    line-height: 30px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+.working-hours-box ul li:before{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px dashed #e6e7f2;
+    content: "";
+}
+.working-hours-box ul li:last-child{
+    margin-bottom: 0;
+}
+.working-hours-box ul li .left{
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+    padding-right: 40px;
+    color: #393d72;
+    font-size: 16px;
+    font-weight: 700;
+}
+.working-hours-box ul li .right{
+    position: relative;
+    display: inline-block;
+    float: right;
+    background: #ffffff;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 600; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.features-content-box {
+    position: relative;
+    display: block;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+.features-content-box .sec-title{
+    padding-bottom: 24px;
+}
+.features-content-box .sec-title h2 {
+    font-size: 52px;
+    margin: 11px 0 0;
+}
+.features-content-box .inner-content{
+    position: relative;
+    display: block;    
+}
+.features-content-box .inner-content .text{
+    margin-bottom: 30px;
+}
+
+.features-content-box .inner-content ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.features-content-box .inner-content ul:before{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 2px;
+    height: 60px;
+    content: "";
+    background: #f2f3fa;
+}
+.features-content-box .inner-content ul.top {
+    border-bottom: 2px solid #f2f3fa;
+    padding-bottom: 23px;
+}
+
+.features-content-box .inner-content ul.bottom{
+    padding-top: 23px;
+}
+
+.features-content-box .inner-content ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.features-content-box .inner-content ul li:last-child{
+    padding-left: 30px;
+}
+
+.features-content-box .inner-content ul li .inner{
+    position: relative;
+    display: block;
+    padding-left: 60px;
+}
+.features-content-box .inner-content ul li .icon{
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.features-content-box .inner-content ul li .icon span:before{
+    font-size: 40px;
+    line-height: 40px;
+}
+.features-content-box .inner-content ul li .title{
+    position: relative;
+    display: block;
+}
+.features-content-box .inner-content ul li .title h3 {
+    font-size: 20px;
+    margin: 0 0 1px;
+}
+.features-content-box .inner-content ul li .title p{
+    margin: 0;
+}
+
+.features-content-box .inner-content ul.bottom:before{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: auto;
+    width: 2px;
+    height: 60px;
+    content: "";
+    background: #f2f3fa;
+}

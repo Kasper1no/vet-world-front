@@ -1,26 +1,76 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.boxed_wrapper {
+  position: relative;
+  overflow: hidden;  
+  background: #ffffff none repeat scroll 0 0;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  min-height: 400px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.btn-one {
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; 
+  font-family: 'Poppins', sans-serif;
+}
+.btn-one:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  border-radius: 10px;
+  transform: scaleY(0.0) rotateX(0deg);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;    
+}
+.btn-one:hover:after{
+  transform: scaleY(1.0) rotateX(0deg);
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;    
+}
+.btn-one .txt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.btn-one:hover,
+.btn-one:focus{
+  color: #393d72;
+}
+.btn-one.style2{
+  color: #ffffff;
+}
+.btn-one.style2:hover:after{
+  transform: scaleY(1.0) rotateX(0deg);
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;      
+}
+.btn-one.style2:hover,
+.btn-one.style2:focus{
+  color: #393d72;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+p{
+  font-size: 16px;
+  line-height: 24px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+

@@ -1,0 +1,689 @@
+
+@media only screen and (max-width: 5000px){
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+ 
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){ }
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+.header-right {
+    top: 30px;
+}  
+   
+/*** Featured Area Css ***/       
+.single-featured-box {
+    max-width: 90%;
+    margin: 0 auto;
+}    
+    
+/*** About Style1 Area Css ***/ 
+.about-style1-area {
+    padding-bottom: 100px;
+}    
+.about-style1-content-box {
+    margin-left: 0;
+    padding-top: 50px;
+}
+/*** features Area Css ***/      
+.features-content-box {
+    padding-top: 50px;
+    max-width: 720px;
+    width: 100%;
+    float: none;
+} 
+    
+/*** Footer Area Css ***/    
+.footer-contact-info {
+    display: block;
+    overflow: hidden;
+    margin-top: 41px;
+} 
+.footer-contact-info .single-box {
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer-contact-info .single-box+.single-box {
+    margin-left: 0px;
+} 
+.footer-social-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    margin-top: 9px;
+}    
+    
+/*** About Style2 Area Css ***/  
+.about-style1-content-box.style1instyle2 {
+    padding-top: 0px;
+    margin: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+}    
+.about-style2-image-box {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 800px;
+    width: 100%;
+}  
+    
+/*** features Style2 Area Css ***/      
+.features-style2-image-box {
+    margin-left: 150px;
+}    
+.features-style2-content-box {
+    padding-top: 50px;
+    padding-left: 0px;
+}   
+
+/*** Choose Style1 Area Css ***/   
+.choose-style1-area .features-content-box {
+    float: none;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+    
+/*** Contact Info Area Css ***/       
+.single-contact-info-box {
+    padding: 61px 0 62px;
+    margin-bottom: 30px;
+}    
+
+/*** Blog Style2 Area Css ***/ 
+.blog-style2-area {
+    padding: 90px 0 80px;
+}    
+.single-blog-style1.style1instyle2 {
+    max-width: 470px;
+    width: 100%;
+    margin: 0 auto 40px;
+}    
+
+/*** Footer Style2 Area Css ***/     
+.single-footer-widget.pdleft30 {
+    padding-left: 0px;
+}    
+.single-footer-widget.pdleft50 {
+    padding-left: 0px;
+}  
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}    
+   
+/*** Contact Form Style1 Area Css ***/        
+.contact-form-style1-area {
+    padding: 140px 0 120px;
+}   
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.header-right {
+    top: 30px;
+}   
+    
+/*** About Style1 Area Css ***/ 
+.about-style1-area {
+    padding-bottom: 100px;
+}    
+.about-style1-content-box {
+    margin-left: 0;
+    padding-top: 50px;
+} 
+  
+/*** features Area Css ***/      
+.features-content-box {
+    padding-top: 50px;
+    max-width: 720px;
+    width: 100%;
+    float: none;
+}     
+
+/*** Testimonial Style1 Area Css ***/    
+.single-testimonial-style1 .img-holder, 
+.single-testimonial-style1 .text-holder {
+    display: block;
+} 
+.single-testimonial-style1 .text-holder {
+    padding-top: 30px;
+    padding-left: 0px;
+} 
+    
+/*** Footer Area Css ***/  
+.footer-contact-info {
+    display: block;
+    overflow: hidden;
+    margin-top: 41px;
+} 
+.footer-contact-info .single-box {
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer-contact-info .single-box+.single-box {
+    margin-left: 0px;
+} 
+.footer-social-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    margin-top: 9px;
+}    
+
+/*** About Style2 Area Css ***/  
+.about-style1-content-box.style1instyle2 {
+    padding-top: 0px;
+    margin: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+}    
+.about-style2-image-box {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 800px;
+    width: 100%;
+}   
+   
+/*** features Style2 Area Css ***/      
+.features-style2-image-box {
+    margin-left: 150px;
+}    
+.features-style2-content-box {
+    padding-top: 50px;
+    padding-left: 0px;
+}   
+  
+/*** Contact Info Area Css ***/       
+.single-contact-info-box {
+    padding: 61px 0 62px;
+    margin-bottom: 30px;
+}    
+
+/*** Footer Style2 Area Css ***/ 
+.footer-top-content .footer-social-info {
+    max-width: 250px;
+    float: right;
+    margin-top: 0px;
+}    
+.single-footer-widget.pdleft30 {
+    padding-left: 0px;
+}    
+.single-footer-widget.pdleft50 {
+    padding-left: 0px;
+}
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}    
+.footer-bottom-style2 .outer-box {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+} 
+     
+ 
+/*** Service Details Area Css ***/        
+.service-details-sidebar {
+    margin-top: 50px;
+}   
+
+/*** Contact Form Style1 Area Css ***/        
+.contact-form-style1-area {
+    padding: 140px 0 120px;
+}    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.sec-title h2 {
+    font-size: 50px;
+}    
+.sec-title h2 br{
+    display: none;
+}    
+    
+/*** Header Style One Css ***/ 
+.header .outer-box {
+    padding: 0 15px;
+}    
+.header-top {
+    display: none;
+}    
+.header-right {
+    top: 30px
+} 
+.header-left .nav-outer {
+    float: right;
+    padding-left: 0;
+}  
+    
+/*** Featured Area Css ***/      
+.single-featured-box {
+    padding: 27px 20px 26px;
+}
+   
+/*** About Style1 Area Css ***/ 
+.about-style1-area {
+    padding-bottom: 100px;
+}    
+.about-style1-content-box {
+    margin-left: 0;
+    padding-top: 50px;
+}
+    
+.about-style1-image-box-bg {
+    background-size: contain;
+} 
+.about-experience-box {
+    top: 0;
+    right: 0px;
+} 
+
+/*** features Area Css ***/      
+.features-content-box {
+    padding-top: 50px;
+    max-width: 720px;
+    width: 100%;
+    float: none;
+}     
+.features-content-box .inner-content ul li {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+} 
+.features-content-box .inner-content ul li:last-child {
+    padding-left: 0px;
+    margin-bottom: 0;
+}    
+.features-content-box .inner-content ul:before {
+    display: none;
+}
+.features-content-box .inner-content ul.bottom {
+    padding-top: 8px;
+} 
+.features-content-box .inner-content ul.top {
+    border-bottom: 0px solid #f2f3fa;
+    padding-bottom: 23px;
+}   
+    
+/*** Priceing Plan Area Css ***/  
+.priceing-plan-area .sec-title {
+    padding-bottom: 50px;
+    text-align: center;
+} 
+.priceing-plan-tabs .tab-button-column {
+    top: -120px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.single-priceing-plan-box .top .left h2 {
+    font-size: 30px;
+}    
+.single-priceing-plan-box .top .right h2 {
+    font-size: 30px;
+} 
+.single-priceing-plan-box .button a {
+    padding: 0 25px;
+}    
+    
+/*** Testimonial Style1 Area Css ***/    
+.single-testimonial-style1 .img-holder, 
+.single-testimonial-style1 .text-holder {
+    display: block;
+    text-align: center;
+} 
+.single-testimonial-style1 .img-holder {
+    width: 320px;
+    margin: 0 auto;
+}    
+.single-testimonial-style1 .text-holder {
+    padding-top: 30px;
+    padding-left: 0px;
+    text-align: center;
+}   
+    
+/*** Footer Area Css ***/  
+.footer {
+    padding: 0 0px 80px;
+} 
+.footer-menu ul li+li {
+    margin-left: 30px;
+}    
+.footer-contact-info {
+    display: block;
+    overflow: hidden;
+    margin-top: 41px;
+} 
+.footer-contact-info .single-box {
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer-contact-info .single-box+.single-box {
+    margin-left: 0px;
+} 
+.footer-social-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    margin-top: 9px;
+}
+
+    
+    
+/*** Header Style2 Css ***/     
+/* .header.style2 {
+    background-color: rgba(0,0,0, 0.50);    
+}     */
+    
+/*** Thm Formbox Style1 Area Css ***/      
+/* .thm-formbox-style1 {
+    padding: 30px;
+    padding-bottom: 30px;
+}     */
+   
+/*** About Style2 Area Css ***/  
+.about-style1-content-box.style1instyle2 {
+    padding-top: 0px;
+    margin: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+}    
+.about-style2-image-box {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 800px;
+    width: 100%;
+}   
+
+/*** features Style2 Area Css ***/      
+/* .features-style2-image-box {
+    margin-left: 0px;
+} 
+.features-style2-image-box .outer-image {
+    display: none;
+}    
+.features-style2-content-box {
+    padding-top: 50px;
+    padding-left: 0px;
+}     */
+     
+  
+/*** Contact Info Area Css ***/       
+.single-contact-info-box {
+    padding: 61px 0 62px;
+    margin-bottom: 30px;
+}      
+    
+/*** Footer Style2 Area Css ***/ 
+.footer-top-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+    
+.footer-logo {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    padding-bottom: 15px;
+} 
+.footer-top-content .footer-social-info {
+    max-width: 100%;
+    float: none;
+    margin-top: 20px;
+}  
+.single-footer-widget.pdleft30 {
+    padding-left: 0px;
+}    
+.single-footer-widget.pdleft50 {
+    padding-left: 0px;
+}
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}   
+.single-footer-widget.pdtop {
+    padding-top: 50px;
+}
+
+    
+/*** Breadcrumb Area Css ***/ 
+.breadcrumb-area {
+    padding: 262px 0 165px;
+}    
+.breadcrumb-area .banner-curve {
+    background-position: center bottom;
+    background-size: contain;   
+} 
+.breadcrumb-area .banner-curve-gray {
+    background-position: center bottom;
+    background-size: contain;   
+}    
+.breadcrumb-area .title h2 {
+    font-size: 52px;
+}    
+.breadcrumb-area .title h2 span {
+    height: 6px;
+    width: 6px;
+}    
+.breadcrumb-menu ul {
+    padding-top: 12px;
+}    
+    
+    
+/*** About Style2 Area Css ***/
+.about-style1-content-box.style1instyle2 .inner-content .button-box {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    padding-top: 20px;
+}    
+.about-style1-content-box.style1instyle2 .inner-content .button-box a.marleft {
+    margin-top: 20px;
+    margin-left: 0px;
+} 
+    
+/*** Skillset Area Css ***/              
+/* .progress-block{
+    margin-bottom: 40px;
+}
+.skillset-progress-box:before {
+    display: none;
+}    
+.skillset-content-box {
+    padding-top: 13px;
+} 
+.skillset-content-box .bottom-text .img-box, 
+.skillset-content-box .bottom-text .text-box {
+    display: block;
+    vertical-align: middle;
+}    
+.skillset-content-box .bottom-text .text-box {
+    padding-left: 0;
+    margin-top: 20px;
+}     */
+   
+ 
+/*** Service Details Area Css ***/        
+.service-details-sidebar {
+    margin-top: 50px;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul{
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+}
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+
+    
+/*** 
+=============================================
+    Header Style One Css
+=============================================
+***/ 
+
+ 
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}      
+.main-header .nav-outer .main-menu,
+.mainmenu-area .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.main-banner .content h2 {
+    font-size: 52px;
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+     
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/
+.main-slider {
+    padding: 213px 0px 190px;
+}
+.main-banner .content h2 {
+    font-size: 42px;
+    margin-top: 25px;
+    margin-bottom: 44px;
+}    
+.main-banner .content h2 .round {
+    width: 5px;
+    height: 5px;
+}    
+.main-banner .content .btns-box a {
+    margin-top: 10px;
+}  
+.main-banner .content .btns-box a.marleft {
+    margin-left: 0px;
+}  
+    
+}
+
+
+
+@media only screen and (max-width: 499px) {
+    
+.main-banner {
+    padding: 213px 0px 190px;
+}     
+.main-banner .content h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}    
+.main-banner .content h2 .round {
+    width: 5px;
+    height: 5px;
+}
+.main-banner .content .btns-box a {
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) { 
+    
+/*** Header Style One Css ***/
+.header-left .nav-outer {
+    padding-left: 40px;
+}    
+.main-menu .navigation> li {
+    margin-right: 25px;
+} 
+    
+}
+
+
+
+
+

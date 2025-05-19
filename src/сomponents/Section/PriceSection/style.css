@@ -1,0 +1,223 @@
+.priceing-plan-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+}
+.priceing-plan-content {
+    position: relative;
+    display: block;
+}
+
+.priceing-plan-tabs{
+    position: relative;
+    display: block;
+}
+.priceing-plan-tabs .tab-button-column{
+    position: absolute;
+    top: -140px;
+    right: 0;
+}
+.priceing-plan-tabs .tab-button-column .tab-buttons {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.priceing-plan-tabs .tab-button-column .tab-buttons li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    background: #f4f2ef;
+    width: 130px;
+    color: #393d72;
+    font-size: 16px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.priceing-plan-tabs .tab-button-column .tab-buttons li:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.priceing-plan-tabs .tab-button-column .tab-buttons li:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.priceing-plan-tabs .tab-button-column .tab-buttons li.tab-btn:hover,
+.priceing-plan-tabs .tab-button-column .tab-buttons li.tab-btn.active-btn{
+	color:#ffffff;
+    background: #f9be4f;
+}
+
+
+
+.priceing-plan-tabs .tabs-content .tab{
+	position: relative;
+	display: none;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	z-index:10;
+}
+.priceing-plan-tabs .tabs-content .tab.active-tab{
+	display: block;
+	margin-top: 0px;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+
+
+.priceing-plan-tab-content{
+    position: relative;
+    display: block;
+}
+.single-priceing-plan-box{
+    position: relative;
+    display: block;
+    padding: 57px 40px 60px;
+    background: #f4f2ef;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+
+.single-priceing-plan-box .top{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.single-priceing-plan-box .top .left{
+    position: relative;
+    display: block;
+}
+.single-priceing-plan-box .top .left p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0 0 2px;
+}
+.single-priceing-plan-box .top .left h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.single-priceing-plan-box .top .right {
+    position: relative;
+    display: block;
+    top: 10px;
+}
+.single-priceing-plan-box .top .right h2 {
+    color: #393d72;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.single-priceing-plan-box .top .right h2 span {
+    position: relative;
+    display: inline-block;
+    padding-right: 1px;
+    top: -2px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.single-priceing-plan-box ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+.single-priceing-plan-box ul li{
+    position: relative;
+    display: block;
+    color: #393d72;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.single-priceing-plan-box ul li.deactive{
+    color: #bcbbb9;
+}
+
+.single-priceing-plan-box ul li span{
+    position: relative;
+    display: block;
+    float: right;
+}
+.single-priceing-plan-box ul li span.deactive:before{
+    color: #bcbbb9;    
+}
+
+.single-priceing-plan-box.style2{
+    background: #393d72;    
+}
+.single-priceing-plan-box.style2 .top .left h2 {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style2 .top .right h2 {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style2 ul li {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style2 ul li.deactive {
+    color: #5e6196;
+}
+.single-priceing-plan-box.style2 ul li span.deactive:before {
+    color: #5e6196;
+}
+.single-priceing-plan-box.style2 .button a{
+    color: #ffffff;
+}
+.single-priceing-plan-box.style2 .button a i {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style2 .button a:hover{
+    background: #181a3d;
+}
+
+
+.single-priceing-plan-box.style3 .top .left p {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 .top .left h2 {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 .top .right h2 {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 .top .right h2 span {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 ul li {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 .button a{
+    color: #ffffff;
+    background: #393d72;
+}
+.single-priceing-plan-box.style3 .button a i {
+    color: #ffffff;
+}
+.single-priceing-plan-box.style3 ul li span:before {
+    color: #fff3f7;
+}
+.single-priceing-plan-box.style3 .button a:hover{
+    background: #181a3d;
+}
